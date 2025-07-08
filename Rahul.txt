@@ -1,4 +1,4 @@
-lGit repo :
+Git repo :
 https://github.com/rahulphadke/HelloWorld
 
 Rahul Phadke
