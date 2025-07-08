@@ -1,12 +1,15 @@
-lGit repo :
+Git repo :
 https://github.com/rahulphadke/HelloWorld
 
 Rahul Phadke
 Mobile : 9850984697
 email : gotorahul@gmail.com
-City : Delhi/Pune
+City : Pune/Gurugram
 Current Company : Amdocs
 changes by krati
 
 update from rishi
+new Line added
+
+updating at 3:00 pm
 
