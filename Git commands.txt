@@ -1,0 +1,87 @@
+Git commands :
+===========================================
+$ git add Rahul.txt
+$ git commit -m "some message"
+$ git push origin main
+$ git branch branch1
+$ git checkout  branch1
+$ git status
+$ git push origin branch1
+
+
+********************************************
+
+$ git branch branch1
+
+ADMIN@Rahul-Phadke-Laptop MINGW64 /e/GitRepos/HelloWorld (main)
+$ git checkout  branch1
+Switched to branch 'branch1'
+
+ADMIN@Rahul-Phadke-Laptop MINGW64 /e/GitRepos/HelloWorld (branch1)
+$ notepad Hello.java
+
+ADMIN@Rahul-Phadke-Laptop MINGW64 /e/GitRepos/HelloWorld (branch1)
+$ notepad Add.java
+
+ADMIN@Rahul-Phadke-Laptop MINGW64 /e/GitRepos/HelloWorld (branch1)
+$ git status
+On branch branch1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Add.java
+        Hello.java
+
+nothing added to commit but untracked files present (use "git add" to tra
+ck)
+
+ADMIN@Rahul-Phadke-Laptop MINGW64 /e/GitRepos/HelloWorld (branch1)
+$ git add .
+
+ADMIN@Rahul-Phadke-Laptop MINGW64 /e/GitRepos/HelloWorld (branch1)
+$ git status
+On branch branch1
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Add.java
+        new file:   Hello.java
+
+
+$ git commit -m "branch1 commit"
+[branch1 696ba9d] branch1 commit
+ 2 files changed, 12 insertions(+)
+ create mode 100644 Add.java
+ create mode 100644 Hello.java
+
+ADMIN@Rahul-Phadke-Laptop MINGW64 /e/GitRepos/HelloWorld (branch1)
+$ git status
+On branch branch1
+nothing to commit, working tree clean
+
+
+
+ADMIN@Rahul-Phadke-Laptop MINGW64 /e/GitRepos/HelloWorld (branch1)
+$ git push origin branch1
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 527 bytes | 87.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'branch1' on GitHub by visiting:
+remote:      https://github.com/rahulphadke/HelloWorld/pull/new/branch1
+remote:
+To https://github.com/rahulphadke/HelloWorld.git
+ * [new branch]      branch1 -> branch1
+
+-------------------------------
+
+$ git add Rahul.txt
+
+ADMIN@Rahul-Phadke-Laptop MINGW64 /e/GitRepos/HelloWorld (main)
+$ git commit -m "3rd commit"
+[main 53f09a2] 3rd commit
+ 1 file changed, 3 insertions(+)
+
+$ git push origin main
+
